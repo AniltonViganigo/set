@@ -13,7 +13,7 @@ public class Program {
 		set.add("Notebook");
 		set.add("Tablet");
 		
-		System.out.println(set.contains("Notebook"));
+		set.remove("Tablet");
 		
 		for (String p : set) {
 			System.out.println(p);
